@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1 {
+    text-align: center;
+    color: #ffee89;
+    translate: skew(30deg);
+}
+body {
+      background-color: aqua;
+      padding:10px;
+}
+img {
+    border:1px solid bisque;
+    border radius: 20px;
+}
+.brunch {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+}
+.brunch:last-child {
+    border-bottom:none;
+}
+@media (min-width:600px){
+    .brunch {
+        flex-direction:row;
+    }
+}
